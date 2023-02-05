@@ -1,0 +1,9 @@
+prefix=/Users/bibitkunwar/.config/iterm2/AppSupport/iterm2env-72/versions/3.8.6/openssl
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.1.0j
+Requires: libssl libcrypto

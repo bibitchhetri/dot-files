@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/bibitkunwar/.config/iterm2/AppSupport/iterm2env-72/versions/3.7.9
+exec_prefix=/Users/bibitkunwar/.config/iterm2/AppSupport/iterm2env-72/versions/3.7.9
+libdir=/Users/bibitkunwar/.config/iterm2/AppSupport/iterm2env-72/versions/3.7.9/lib
+includedir=/Users/bibitkunwar/.config/iterm2/AppSupport/iterm2env-72/versions/3.7.9/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.4
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -D_THREAD_SAFE -pthread 

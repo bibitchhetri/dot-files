@@ -1,0 +1,46 @@
+// Deletion from any position specified by user
+/*
+for unsorted array 
+a[pos-1]=a[size];
+size--;    
+*/
+#include "iostream"
+
+int main (int argc, char *argv[])
+{
+  int a[20],size,num,pos,i,delItem;
+  std::cout << "Enter Size of the array: ";
+  std::cin >> size;
+  if (size>20) {
+    std::cout << "Array size out of bound!" << std::endl;   
+  }
+  else {
+    std::cout << "Enter " << size << " elements: ";
+    for ( i = 0; i < size; i++) {
+      std::cin >> a[i]; 
+    }
+    std::cout << "The elements in array are: ";
+    for ( i = 0; i < size; i++) {
+      std::cout << a[i] << " ";
+    }
+    std::cout << std::endl <<"Enter the position where you want to delete: ";
+    std::cin >> pos;
+    if(pos<=0||pos>size+1){
+      std::cout << "Invalid position" << std::endl;
+    }
+    else {
+      delItem=a[pos-1]; 
+      for ( i = pos-1; i < size-1; i++) {
+        a[i]=a[i+1];
+      }
+      size--;
+      std::cout << "The deleted element is: " << delItem << std::endl;
+      std::cout << "The elements in array after deletion are: ";
+      for ( i = 0; i < size; i++) {
+        std::cout << i[a] << " "; // a[i] ~ i[a] i.e both means the same
+      }
+    }
+  }
+  std::cout << std::endl;
+ return 0;
+}

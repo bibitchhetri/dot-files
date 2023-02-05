@@ -1,0 +1,25 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("C"
+ (filename . "~/Programming/C/")
+ (front-context-string . "a.out\n  drwxr-xr")
+ (rear-context-string . "36 Aug 30 20:51 ")
+ (position . 211))
+("C++"
+ (filename . "~/Programming/CPP/")
+ (front-context-string . "BoardExam\n  drwx")
+ (rear-context-string . "80 Aug  8 17:08 ")
+ (position . 225))
+("Java"
+ (filename . "~/Programming/Java/")
+ (front-context-string . "emacs\n  -rw-r--r")
+ (rear-context-string . "88 Nov 14 16:39 ")
+ (position . 226))
+("DSA"
+ (filename . "~/Programming/DSA/")
+ (front-context-string . "a.out\n  drwxr-xr")
+ (rear-context-string . "56 Nov  9 14:51 ")
+ (position . 213))
+)

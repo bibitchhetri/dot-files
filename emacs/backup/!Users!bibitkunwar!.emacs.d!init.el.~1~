@@ -1,0 +1,100 @@
+;;; EmacsRule --- For Config
+;;; Commentary:
+;;; Code:
+
+;;; fonts
+(set-frame-font "Optima" nil t)
+
+;;; Remember to Load the pakcages.el first
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(load-file "~/.emacs.d/src/packages.el")
+(load-file "~/.emacs.d/src/tree-sitter.el")
+(load-file "~/.emacs.d/src/settings.el")
+(load-file "~/.emacs.d/src/theme.el")
+(load-file "~/.emacs.d/src/c++.el")
+(load-file "~/.emacs.d/src/java.el")
+(load-file "~/.emacs.d/src/dashboard.el")
+(load-file "~/.emacs.d/src/mini_buffer_completion.el")
+(load-file "~/.emacs.d/src/white_space.el")
+(load-file "~/.emacs.d/src/corfu.el")
+(load-file "~/.emacs.d/src/modeline.el")
+(load-file "~/.emacs.d/src/dired.el")
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '("2dc03dfb67fbcb7d9c487522c29b7582da20766c9998aaad5e5b63b5c27eec3f" "944d52450c57b7cbba08f9b3d08095eb7a5541b0ecfb3a0a9ecd4a18f3c28948" "02f57ef0a20b7f61adce51445b68b2a7e832648ce2e7efb19d217b6454c1b644" "1a1ac598737d0fcdc4dfab3af3d6f46ab2d5048b8e72bc22f50271fd6d393a00" "05626f77b0c8c197c7e4a31d9783c4ec6e351d9624aa28bc15e7f6d6a6ebd926" "aec7b55f2a13307a55517fdf08438863d694550565dee23181d2ebd973ebd6b8" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "24168c7e083ca0bbc87c68d3139ef39f072488703dcdd82343b8cab71c0f62a7" "46b2d7d5ab1ee639f81bde99fcd69eb6b53c09f7e54051a591288650c29135b0" "78e6be576f4a526d212d5f9a8798e5706990216e9be10174e3f3b015b8662e27" "cf922a7a5c514fad79c483048257c5d8f242b21987af0db813d3f0b138dfaf53" "3b050147ba211a3711c5421d8c98078b75e983261873548e36fe477d83443b56" "1704976a1797342a1b4ea7a75bdbb3be1569f4619134341bd5a4c1cfb16abad4" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8" "246a9596178bb806c5f41e5b571546bb6e0f4bd41a9da0df5dfbca7ec6e2250c" "835868dcd17131ba8b9619d14c67c127aa18b90a82438c8613586331129dda63" "ed8e6f452855fc7338c8be77803666b34745c19c6667197db48952107fa6d983" "94a4bc930e78b5a76fd8855da47fe1f6200a06e82461b6f4031796cde64f454e" default))
+ '(ede-project-directories '("/home/spd/Programming/C++/Classes"))
+ '(exwm-floating-border-color "#242530")
+ '(fci-rule-color "#6272a4")
+ '(font-lock-support-mode 'tree-sitter-lock-mode)
+ '(highlight-tail-colors
+   ((("#2c3e3c" "#55ff77" "green")
+     . 0)
+    (("#313d49" "#88eeff" "brightcyan")
+     . 20)))
+ '(inhibit-startup-screen t)
+ '(jdee-db-active-breakpoint-face-colors (cons "#1E2029" "#bd93f9"))
+ '(jdee-db-requested-breakpoint-face-colors (cons "#1E2029" "#50fa7b"))
+ '(jdee-db-spec-breakpoint-face-colors (cons "#1E2029" "#565761"))
+ '(objed-cursor-color "#ff5555")
+ '(package-selected-packages
+   '(doom-modeline cape embark-consult 0x0 tempel company dashboard orderless ivy-posframe ivy vertico-posframe vertico all-the-icons-ibuffer all-the-icons-dired page-break-lines all-the-icons-completion all-the-icons-gnus all-the-icons projectile afternoon-theme python-insert-docstring clang-format+ py-autopep8 nord-theme iflipb magit xml-format skewer-mode impatient-mode simple-httpd multiple-cursors quickrun flycheck iedit doom-themes))
+ '(pdf-view-midnight-colors (cons "#f8f8f2" "#282a36"))
+ '(rustic-ansi-faces
+   ["#282a36" "#ff5555" "#50fa7b" "#f1fa8c" "#61bfff" "#ff79c6" "#8be9fd" "#f8f8f2"])
+ '(vc-annotate-background "#282a36")
+ '(vc-annotate-color-map
+   (list
+    (cons 20 "#50fa7b")
+    (cons 40 "#85fa80")
+    (cons 60 "#bbf986")
+    (cons 80 "#f1fa8c")
+    (cons 100 "#f5e381")
+    (cons 120 "#face76")
+    (cons 140 "#ffb86c")
+    (cons 160 "#ffa38a")
+    (cons 180 "#ff8ea8")
+    (cons 200 "#ff79c6")
+    (cons 220 "#ff6da0")
+    (cons 240 "#ff617a")
+    (cons 260 "#ff5555")
+    (cons 280 "#d45558")
+    (cons 300 "#aa565a")
+    (cons 320 "#80565d")
+    (cons 340 "#6272a4")
+    (cons 360 "#6272a4")))
+ '(vc-annotate-very-old-color nil)
+ '(warning-suppress-log-types '((initialization) (comp) (comp)))
+ '(warning-suppress-types '((initialization) (comp) (comp))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+
+(provide 'init)
+;;; init.el ends here
+
+
+(setq ns-auto-hide-menu-bar t)
+;;(tool-bar-mode 1)
+;;(set-frame-size nil 129 45)     ;; Pick values matching your screen.
+;;(set-frame-size nil 0 0)
+(set-frame-size nil 151 53)
+(set-frame-position nil 0 -14)
+(add-to-list 'default-frame-alist '(undecorated . t))  ;; hides resizing bar
+
+;; transparent window
+(set-frame-parameter (selected-frame) 'alpha '(85 85))
+
+(add-to-list 'default-frame-alist '(alpha 85 85))
+
+(set-face-attribute 'default nil :background "black"
+  :foreground "white" :font "Courier" :height 180)

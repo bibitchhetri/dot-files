@@ -1,0 +1,45 @@
+** Why should someone learn linux?
+ 
+*** Many servers and cloud evironments ,IOTs, supercomputers, submarines,space rockets,satellites,mobile phones, ATM machines, automobile, embeded systems(Refrigerators,TVs,Washing Machine,Routers, Hub, Switches) uses Linux as their operating system. Over 25 billion devices uses linux.*
+    * =Web Servers 96.55%= 
+    * =Mobile Devices =71.9%= 
+    * =Desktop And Laptops =2.5%=
+    * =Almost all IOT and embeded systems=
+
+      
+*** Linux has a large and active developer community, and there are many open source tools and resources aavailable for Linux users.
+ * =Total number of contributors on Linux=         ==> 1300+
+ * =Total number of linux kernel forks=            ==> 45.9k+
+ * =Total number of lines of code in Linux Kernel= ==> 27.8M+
+
+*** Linux is known for its security and stability, making it a popular choice for servers and other critical infrastructure.
+ * =Open-source: Linux is open-source, which means that its source code is publicly available and can be reviewed and audited by a community of developers. This helps to ensure that any security vulnerabilities are quickly identified and addressed.=
+   
+ * =Security by design: Linux is a multi-user operating system, which means that it was designed to allow multiple users to share the same computer and resources. This design helps to prevent one user from gaining unauthorized access to another user's data or resources.=
+   
+ * =Command-line tools: Linux includes a range of powerful command-line tools that are useful for cybersecurity tasks such as network scanning and analysis. Example: NMAP,Wireshark,Burpsuite,Aircrak-ng etc.=
+   
+
+*** Learning Linux can also help developers improve their command line skills, which are useful for automating tasks and working with version control systems like Git.
+ * =Many tasks that would be tedious or time-consuming to perform manually can be automated using scripts written in languages such as Bash, Python, or Ruby=
+ * =Linux also includes tools such as '*cron'*, which allows you to schedule tasks to be run automatically at a specific time or interval=
+
+   
+*** Linux also provides a good platform for learning about operating systems and computer systems in general.
+ * =It is open-source: Because the source code for Linux is publicly available, it is easy to learn from and modify. This can be a helpful resource for those who are interested in learning about how operating systems work and how they are built.=
+   
+** History of Linux
+ * The GNU Project was launched in 1983 by Richard Stallman with the goal of developing a free, open-source operating system that would be available to anyone to use, modify, and distribute.
+
+ * The GNU Project developed many of the essential tools and utilities that are used in modern operating systems, including the C compiler, the GNU C Library (glibc), and the Bash shell.
+
+ * In 1991, Linus Torvalds released the Linux kernel, which was based on the Minix operating system and was initially intended to be used as a simple operating system for his own personal computer.
+
+ * The Linux kernel was released under the GNU General Public License (GPL), which meant that anyone could freely use, modify, and distribute the source code.
+
+ * The combination of the GNU tools and utilities with the Linux kernel resulted in the creation of the GNU/Linux operating system, which quickly gained popularity as a stable and reliable alternative to proprietary operating systems.
+
+ * Today, the term "Linux" is often used to refer to the entire operating system, including both the Linux kernel and the GNU tools and utilities, while the term "GNU/Linux" is used to emphasize the role of the GNU Project in the development of the operating system.
+
+
+ 
